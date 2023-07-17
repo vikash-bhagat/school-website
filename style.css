@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 150px;
+    background-color: #690606;
+}
+.font{
+    height:30px;
+    background-color: #009688;
+    color: #dedede;
+
+}
+.box a{
+    margin: 5px;
+}
+.box{
+    padding:2px;
+    display: flex;
+   justify-content: end;
+    color: #dedede;
+
+}
+.hover:hover {
+    border: 0.5px solid white;
+    padding-left: 2px;
+    padding-right: 7px;
+}
+/*box2*/
+.box2{
+    background-color: #A20327;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height:122px;
+    width: 50px;
+    background-image: url(LOGO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left:100px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.name{
+    color: #ffffff;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+.address{
+    font-size: 13px;
+    padding-left: 2px;
+}
+.main{
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-bottom: 2px solid gainsboro;
+}
+.main a{
+    color: #1133AA;
+}
+.main a:hover{
+    border:0.5px solid transparent;
+    text-decoration: overline;
+    text-decoration-color: #690606;
+}
+.box3{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-evenly;
+  align-items: center;
+  
+}
+.C1{
+    height:60px;
+    width: 200px;
+    margin-left: 50px;
+ background-color: rgb(255, 145, 0);
+ height:60px;
+ font-weight: bold;
+ color: #000;
+ font-size: 10pt;
+ border-radius: 14px;
+ text-align: center;
+ border:none;
+}
+.C2{
+    height:60px;
+    width: 200px;
+    margin-left: 20px;
+    background-color:#009688;
+    height:60px;
+    font-weight: bold;
+ color: #000;
+    font-size: 10pt;
+    border-radius: 14px;
+    text-align: center;
+    border:none;
+}
+.C3{
+    height:60px;
+    width: 200px;
+    margin-left: 50px;
+    background-color: rgb(255, 145, 0);
+    height:60px;
+    font-weight: bold;
+    color: #000;
+    font-size: 10pt;
+    border-radius: 14px;
+    text-align: center;
+    border:none;
+}
+.C4{
+    height:60px;
+    width: 200px;
+    margin-left: 50px;
+    background-color:#009688;
+    height:60px;
+    font-weight: bold;
+ color:white;
+    font-size: 10pt;
+    border-radius: 14px;
+    text-align: center;
+    border:none;
+}
+.C5{
+    height:60px;
+    width: 200px;
+    margin-left: 50px;
+    background-color: rgb(255, 145, 0);
+    height:60px;
+    font-weight: bold;
+    color: #000;
+    font-size: 10pt;
+    border-radius: 14px;
+    text-align: center;
+    border:none;
+}
+/*hero*/
+.hero{
+    height: 450px;
+    background-color: #ffffff;
+    border-bottom: 2px solid transparent;
+}
+.photo{
+    height: 400px;
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    height: 300px;
+    background-color: #e8e8e8;
+    align-items: center;
+}
+.boxes-1{
+    height: 300px;
+    width:100%;
+    border:2px solid #e3dede;
+    text-align: center;
+}
+.cd{
+    border:2px solid #e3dede;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(im.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.Message{
+   padding-top: 20px;
+}
+.red{
+    background-color: #009688;
+    color: white;
+    padding: 1px 5px;
+}
+.red:hover{
+    cursor: pointer;
+}
+.last{
+    
+    background-color: #690606;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.con{
+    padding-top: 10px;
+    
+}
+.contact{
+    height: 115px;
+    width: 160px;
+    background-image: url(Contact\ Us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dav{
+    color: white;
+}
+.sec{
+    font-size: small;
+    color: whitesmoke;
+}
+.links{
+   padding-left: 20px;
+    padding-top: 10px;
+}
+.er{
+    background-color: #690606;
+    padding:1px;
+    margin: 10px;
+    color:whitesmoke;
+}
+
